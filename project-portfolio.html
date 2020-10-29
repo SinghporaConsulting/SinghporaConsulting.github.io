@@ -247,19 +247,28 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Reliable messaging & high availability</h2>
-                  <p class="text-muted">Reliable messaging, high availability setup and testing, set up good development and release practices</p>
+                  <h2 class="text-uppercase">Reliable messaging & error resilience</h2>
+                  <p class="text-muted">Reliable messaging, error handling setup and testing, implementation of good development and release practices</p>
                   <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p><b>Background:</b> The client is a <b>major port</b> responsible for some of the largest shipping traffic in Eurasia.
+                    They used the <b>Oracle Service Bus 12c</b> as their integration platform for some of their important integration flows.<br>
+                    The platform consisting of the Weblogic domain was deployed on <b>in-house</b> infrastructure.
+                    There were gaps in <b>development practices</b>, such as lack of release notes, adequate unit test coverage, or source control practices (e.g. *.sbar deployable bundles were directly added to SVN, and environment specific customization/configuration files had not been used).
+                    In general, the integration flows were over-complicated, lacked modularity, and had sub-optimal runtime behaviour.
+                    The most pressing problem for which the client sought Singhpora Consulting's expertise occurred at runtime: <i>Any momentary or prolonged downtime of the target system, or a sporadic network outage, coincided with message loss.</i>
+                    According to the customer's own estimates, <b>up to 10% of messages</b> received from their source system (a core shipping system) were not accounted for.
+                  </p>
+                  <img class="img-fluid d-block mx-auto" src="images/portfolio/project2.jpg" alt="OSB Reliable Messaging">
                   <ul class="list-inline">
                     <li><b>Client:</b> A major UK port with global operations</li>
                     <li><b>Category:</b> Integration, reliable messaging, publish-subscribe, Oracle, service bus, shipping</li>
+                    <li><b>Project outcomes:</b>
                     <li>Complete review of the customer's existing environment and integration flow codebase</li>
                     <li>Set up of formal source control, build, and release processes</li>
                     <li>Refactor of the complete code-base for maintainability and good development practices</li>
                     <li>Solved a long-standing issue with message loss at times of target system downtime</li>
                     <li>Supported testing, verification, and production releases of the re-designed code</li>
+                    <li>Advised the customer on future plans and further enhancements</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -414,8 +423,8 @@
                   <img class="img-fluid d-block mx-auto" src="images/portfolio/project6.png" alt="">
                   <p>Digital enablement, multi-channel enablement, </p>
                   <ul class="list-inline">
-                    <li>Client: A mid-sized retail company with online sales, and stores across the UK and Ireland</li>
-                    <li>Category: SOA, Integration, Middleware, API, eCommerce, ERP</li>
+                    <li><b>Client:</b> A mid-sized retail company with online sales, and stores across the UK and Ireland</li>
+                    <li><b>Category:</b> SOA, Integration, Middleware, API, eCommerce, ERP</li>
                     <li>Technical design and development of processes and data flows for 'click and collect' features</li>
                     <li>Logistics integrations between Oracle EBS, DHL and TrakPak –with solutions for automated customs document generation to improve warehouse operations</li>
                     <li>Paypal and Paypoint for refund automation that led to efficiency improvement for customer's finance teams</li>
