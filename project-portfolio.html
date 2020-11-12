@@ -96,17 +96,17 @@
           </div>
 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3__">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <p></p>
+                  <p>Click to view details</p>
                 </div>
               </div>
-              <img class="img-fluid" src="./images/portfolio/project3.jpg" alt="Order import process">
+              <img class="img-fluid" src="./images/portfolio/project3.jpg" alt="Order import, shipments, and warehouse process digitisation">
             </a>
             <div class="portfolio-caption">
-              <h4>Order import, warehouse support, & shipment processes</h4>
-              <p class="text-muted">Integration and process orchestration for multiple usecases from order import into ERP, warehouse processes, to shipments and customer notifications.</p>
+              <h4>Orders, shipment, and warehouse process digitisation</h4>
+              <p class="text-muted">Integration and process orchestration from order-to-shipment (& digitisation of warehouse processes)</p>
             </div>
           </div>
 
@@ -298,14 +298,41 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Orders, shipment, and warehouse process digitisation</h2>
+                  <p class="item-intro">Integration and process orchestration for multiple usecases from order import into ERP, to shipments and customer notifications. Digitisation of warehouse processes had a transformative impact on the business.</p>
+                  <p class="item-intro text-muted"></p>
+                  <p><b>Background:</b> The client is a <b>retail</b> organisation with approximately 150 physical stores.
+                    As part of their multi-channel e-commerce strategy, the customer wished to digitise their end-to-end businesses processes from Order import to shipment.
+                    A number of ad-hoc operational flows in the warehouse were digitised, streamlined, and a few automated.
+                    <br />This directly led to better traceability, reduced errors, efficiency in multiple departments, reduced times from order to fulfillment, and better customer experience.
+
+                  </p>
+                  <img class="img-fluid d-block mx-auto" src="images/portfolio/project3_orderimport.jpg" alt="Order Import Process depicted in BPMN notation">
+                  <p>At the start of the project, the biggest challenge for Singhpora Consulting was to identify and map the customer's business processes in a manner that could be broken down into more granular business services.
+                  <b>BPMN</b> allowed us to define these processes in a notation that customer-side stakeholders could easily identify.
+                  This then allowed us to define, develop, and deliver reusable business services at the right level of granularity that could be orchestrated in the right sequence.</p>
+                  <p>The business services had clean, implementation-agnostic API's and modular, decoupled, platform-agnostic implementations.
+
+                  <img class="img-fluid d-block mx-auto" src="images/portfolio/project3_shipment.jpg" alt="Warehouse and Shipment Process depicted in BPMN notation">
+
+                  <p>
+                    A second challenge we faced was that the customer-managed SOA/middleware platform was not very well maintained.
+                    Recurring <b>issues and outages</b> were common. So, in addition to delivering the business functionality, we had to first <b>stabilise</b> the platform.
+                    <br/>Using our knowledge and expertise, we identified a number of <b>root causes</b>, and fixed these to ensure that we had a stable target environment to deploy new functionality.
+                    <br />Our <b>high quality</b> Software Engineering practices ensured that the customer was able to <b>avoid vendor lock-in</b> with any specific platform.
+                    <br />They eventually did successfully migrate their processes and services to middleware from a different vendor, and eventually, to an <b>iPaaS cloud</b> platform. </p>
+                  </p>
+                  <img class="img-fluid d-block mx-auto" src="images/portfolio/project3_implementation.png" alt="Implementation depicted in a UML sequence diagram">
+                  <p>The UML sequence diagram above depicts the actual API's developed and delivered to the customer, along with their orchestration to realise the business processes </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li><b>Client:</b> A retail company with multi-channel e-commerce and physical stores </li>
+                    <li><b>Category:</b> Integration, process orchestration, BPM, BPMN, SaaS, iPaaS, Cloud, SOA, Middleware, Shipping, Finance, e-commerce</li>
+                    <li><b>Project outcomes:</b>
+                    <li>Technical stabilisation of the customer's SOA environment</li>
+                    <li>Digitisation of warehouse processes (picking, automated customs document printing, automation of shipping label printing, integration with shipping partners like DHL)</li>
+                    <li>End to end process orchestration from Order import to shipping</li>
+                    <li>High quality, vendor-agnostic Software Engineering</li>
+                    <li>Supported testing, verification, and production releases </li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
