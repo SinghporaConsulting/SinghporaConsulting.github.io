@@ -1,3 +1,4 @@
+/*import AOS from "aos"; */
 window.addEventListener('DOMContentLoaded', () => {
 
   const navbar = document.querySelector('nav')
